@@ -71,18 +71,51 @@ section{
 }
 
 .projects-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: auto;
   background-color: #181818;
   opacity: 0.99;
   text-align: center;
 }
 
-.projects-section img {
+.project {
+  background-size: 100% 100%;
   color: white;
   height: 200px;
   width: 300px;
-  padding: 5px;
+  margin-top: 10px;
 }
+
+.description {
+  /*background-color: black;*/
+}
+
+.frogger {
+  background-image: url('images/frogger.png');
+}
+
+.url {
+  background-image: url('images/shorten-url.png');
+}
+
+.ideabox {
+  background-image: url('images/ideabox.png');
+}
+
+.movie-tracker {
+  background-image: url('images/movie-tracker.png');
+}
+
+.weathrly {
+  background-image: url('images/weathrly.png');
+}
+
+.money {
+  background-image: url('images/money2.png');
+}
+
 
 footer {
   width: 100%;
