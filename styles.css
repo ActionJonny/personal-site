@@ -89,12 +89,17 @@ section{
 }
 
 .hidden {
+  padding: 10px;
   position: absolute;
-  width: 300px;
-  height: 200px;
+  width: 280px;
+  height: 180px;
   color: black;
   background-color: white;
   display: none;
+}
+
+img {
+  padding: 0 10px 10px 10px;
 }
 
 .frogger {
