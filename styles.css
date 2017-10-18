@@ -48,7 +48,7 @@ section{
   display: flex;
 }
 
-.about-me-div {
+.about-me-section {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -61,6 +61,10 @@ section{
   opacity: 0.9;
   padding: 5px;
   text-align: center;
+}
+
+.about-me-paragraph a {
+  color: white;
 }
 
 .hello {
