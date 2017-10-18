@@ -99,7 +99,7 @@ section{
   height: 180px;
   color: black;
   background-color: white;
-  /*display: none;*/
+  display: none;
 }
 
 .app-title {
